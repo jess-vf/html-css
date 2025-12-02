@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+  <h1>Inserindo vídeos hospedados localmente</h1>  
+  <p>Este vídeo está hospedado no meu pŕoprio servidor.</p>
+
+   
+<p>essa é a forma mais certa: </p>
+
+  <video width="500" poster="imagens/capa3.png" controls>
+   
+    <source src="midia/meuvideo1.1.mp4" type="video/mp4">
+    <source src="midia/meuvideo1.1.mkv" type="video/mp4">
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+  </video>
+
+<p>essa é a forma mais simples:</p>
+  <video src="midia/meuvideo1.1.mkv" poster="imagens/capa3.png"   width="500" controls></video>
+
+<h1>Inserindo vídeos do Youtube</h1>
+
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/tgbNymZ7vqY"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+<h1>Inserindo vídeos do Vimeo</h1>
+
+<iframe width="560" title="vimeo-player" src="https://player.vimeo.com/video/8537554?h=6ac380d791" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+</body>
+
+</body>
+</html>
