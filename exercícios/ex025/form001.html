@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off"> 
+    <form action="cadastro.php" method="post" autocomplete="off"> 
         <p><label for="inome">Nome: </label>
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome: </label>
@@ -23,6 +23,10 @@
     <!--action (+ input submit): enviar o dado do formulário para alguma linguagem de programação / autocomplete="off": memória de preenchimento dos campos do formulário, sugestões desligadas  
     
     o label relaciona o nome com o espaço. cria uma área maior de sensibilidade pra a pessoa digitar. você coloca o id no campo for"". 
+
+    ser não colocar o "method" o padrão aplicado é o Get. 
+    Get: usar para dados NÃO sensíveis
+    Post: usar para dados sensíveis com https; se quiser que os dados não apareçam diretamente na url; se dados tiverem mais de 3000 bites; envio de fotos
     -->
 </body>
 </html>
